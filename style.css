@@ -1,0 +1,30 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+
+}
+
+ul,
+li{
+    list-style: none;
+}
+.header nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+    padding: 1em;
+    background-color: gray;
+
+}
+
+.header img {
+    height: 30% ;
+    width: 30%;
+    
+}
+
+.header ul{
+    display: flex;
+    gap: 1em;
+}
